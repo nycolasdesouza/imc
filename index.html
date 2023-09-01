@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+     <title>cauculo imc</title>
+<html>
+    <body>
+        <h1> calcular imc de:</h1>
+        <p>
+            <script>
+            function calcular(peso,altura) {
+                return peso/(altura**2);
+            }
+            alert("clique em ok para começar");
+            let nome = prompt("qual seu nome?");
+            let peso = prompt(nome + ", qual o seu peso?");
+            let altura = prompt(nome +",qual sua altura?");
+            let calculo = calcular(peo, altura);
+            let texto = ",seu imc é: ";
+            let imc = calculo.tofixed(2);
+            document.write(nome.italics() + texto.bold() + imc.fontcolor("blue"));
+            </script>
+        </p> 
+    </body>
+</html>    
 
